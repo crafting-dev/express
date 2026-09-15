@@ -1,0 +1,63 @@
+apiVersion: v1
+entries:
+  express:
+  - apiVersion: v2
+    created: "2026-09-15T22:17:00.272106097Z"
+    dependencies:
+    - name: apid
+      repository: ""
+      version: 0.0.1
+    - name: authproxy
+      repository: ""
+      version: 0.0.1
+    - name: base
+      repository: ""
+      version: 0.0.1
+    - name: bridged
+      repository: ""
+      version: 0.0.1
+    - name: crproxy
+      repository: ""
+      version: 0.0.1
+    - name: ctld
+      repository: ""
+      version: 0.0.1
+    - name: hostd
+      repository: ""
+      version: 0.0.1
+    - name: reconciler
+      repository: ""
+      version: 0.0.1
+    - name: workers
+      repository: ""
+      version: 0.0.1
+    - name: redis
+      repository: ""
+      version: 8.6.2
+    - name: dockerregistry
+      repository: ""
+      version: 2.8.1
+    - name: web
+      repository: ""
+      version: 0.0.1
+    - name: k8sd
+      repository: ""
+      version: 0.0.1
+    - name: svclbd
+      repository: ""
+      version: 0.0.1
+    - name: expagent
+      repository: ""
+      version: 0.0.1
+    - name: system-exp
+      repository: ""
+      version: 0.0.1
+    - name: samples
+      repository: ""
+      version: 0.0.1
+    digest: 4f1e2817b92301a3ce8656cbe9063bfc81bae174d4975599efadda6951b8c40f
+    name: express
+    urls:
+    - https://crafting-dev.github.io/express/express-2.3.1.tgz
+    version: 2.3.1
+generated: "2026-09-15T22:17:00.264638013Z"
