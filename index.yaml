@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   express:
   - apiVersion: v2
-    created: "2026-09-17T04:36:53.925737874Z"
+    created: "2026-09-17T05:48:46.781468795Z"
     dependencies:
     - name: apid
       repository: ""
@@ -55,13 +55,13 @@ entries:
     - name: samples
       repository: ""
       version: 0.0.1
-    digest: 004023c6b4a5eac48c1e84dee031a74e1781d81363fd0d0dc4ef575cf2a30418
+    digest: 75126a43b9d70896683db406a59a721201bcea1a8235aeb0e3aacfd33630f262
     name: express
     urls:
     - https://crafting-dev.github.io/express/express-2.3.2.tgz
     version: 2.3.2
   - apiVersion: v2
-    created: "2026-09-17T04:36:53.922739624Z"
+    created: "2026-09-17T05:48:46.778141005Z"
     dependencies:
     - name: apid
       repository: ""
@@ -119,4 +119,4 @@ entries:
     urls:
     - https://crafting-dev.github.io/express/express-2.3.1.tgz
     version: 2.3.1
-generated: "2026-09-17T04:36:53.918539224Z"
+generated: "2026-09-17T05:48:46.773887065Z"
