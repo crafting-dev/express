@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   express:
   - apiVersion: v2
-    created: "2026-09-17T22:52:24.013415524Z"
+    created: "2026-09-18T01:16:04.81640485Z"
     dependencies:
     - name: apid
       repository: ""
@@ -55,68 +55,9 @@ entries:
     - name: samples
       repository: ""
       version: 0.0.1
-    digest: 14a372d2aadbccf6e37bd516334edf46ec42f5369670ab294c45221d9ef7bf97
+    digest: d7cf96edda643e1cd8b196f5642e7e9b40c9cb3b2a6d4d89581686f2c22bdc9a
     name: express
     urls:
     - https://crafting-dev.github.io/express/express-2.3.2.tgz
     version: 2.3.2
-  - apiVersion: v2
-    created: "2026-09-17T22:52:24.010311644Z"
-    dependencies:
-    - name: apid
-      repository: ""
-      version: 0.0.1
-    - name: authproxy
-      repository: ""
-      version: 0.0.1
-    - name: base
-      repository: ""
-      version: 0.0.1
-    - name: bridged
-      repository: ""
-      version: 0.0.1
-    - name: crproxy
-      repository: ""
-      version: 0.0.1
-    - name: ctld
-      repository: ""
-      version: 0.0.1
-    - name: hostd
-      repository: ""
-      version: 0.0.1
-    - name: reconciler
-      repository: ""
-      version: 0.0.1
-    - name: workers
-      repository: ""
-      version: 0.0.1
-    - name: redis
-      repository: ""
-      version: 8.6.2
-    - name: dockerregistry
-      repository: ""
-      version: 2.8.1
-    - name: web
-      repository: ""
-      version: 0.0.1
-    - name: k8sd
-      repository: ""
-      version: 0.0.1
-    - name: svclbd
-      repository: ""
-      version: 0.0.1
-    - name: expagent
-      repository: ""
-      version: 0.0.1
-    - name: system-exp
-      repository: ""
-      version: 0.0.1
-    - name: samples
-      repository: ""
-      version: 0.0.1
-    digest: 96f173928b9443c9bd4c315a2424d0a65c3bd2b4e503a17a33415d1bd7a7845e
-    name: express
-    urls:
-    - https://crafting-dev.github.io/express/express-2.3.1.tgz
-    version: 2.3.1
-generated: "2026-09-17T22:52:24.006484484Z"
+generated: "2026-09-18T01:16:04.81232273Z"
