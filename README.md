@@ -1,21 +1,14 @@
+![Crafting Express agent interface](docs/images/crafting-express-header.png)
+
 # Crafting Express Edition
 
-**Try the enterprise AI control plane in a single container.**
+**Run and coordinate AI agents in a single Docker container.**
 
-Crafting is the enterprise-ready AI control plane for multi-agent systems.
-Secure, networked execution environments with built-in orchestration and network
-isolation, built for teams that need agents to operate safely and reliably at scale.
+Crafting Express lets you evaluate Crafting’s agent execution and orchestration
+platform on your own machine. Launch agents, coordinate handoffs, and inspect their
+work through a web UI and CLI.
 
-**Crafting Express Edition** is a single-container evaluation build so you can
-experience multi-agent orchestration firsthand. Spin up agents, coordinate
-hand-offs, and see what it looks like when agents execute in isolated environments
-with scoped credentials and real dependencies.
-
-
-> ⚠️ **Express Edition is for trial and evaluation only.** It runs inside a
-> single Docker container and is not suitable for production workloads. For
-> enterprise-scale deployment — multi-cloud, multi-region, k8s integration, and
-> SOC 2 Type II compliance — [contact us](https://crafting.dev).
+> Express is for evaluation only. Production deployments use Crafting Enterprise.
 
 ## Quick Start
 
@@ -40,6 +33,41 @@ It will guide you to:
 - Instructions on how to access _Crafting Express Edition_ via Web UI and CLI
 
 For more details, check out our [documentation](https://docs.sandboxes.cloud).
+
+## Built for teams of agents
+
+Crafting brings agent coordination and execution environments together in one
+platform. Express gives you a local evaluation of that platform; production
+infrastructure integrations and enterprise controls are available through Crafting
+Enterprise.
+
+- **Delegate work to specialist agents.** A lead agent can split a task among
+  coding, testing, and security agents. Sub-agents run in parallel with separate
+  conversation contexts, return results to the lead, and receive follow-up work
+  as needed. [Build an agent team](https://docs.sandboxes.cloud/guides/developers/build-agent.html#agent-team).
+
+- **Choose models without replacing your harness.** Crafting's native harness
+  supports OpenRouter, compatible self-hosted endpoints, AWS Bedrock, and Google
+  Cloud Vertex AI. Centrally managed model configuration lets you evaluate new
+  models while keeping your agent definitions and execution environments.
+  [Model-agnostic agent teams](https://www.crafting.dev/post/model-agnostic-agent-teams).
+
+- **Share workspaces when collaboration calls for it.** Give agents dedicated
+  environments or let multiple agents work in an existing workspace. Engineers
+  can work alongside agents using the same codebase and development tools.
+  [See how Faire collaborates with agents](https://www.crafting.dev/post/faire-agentic-stack-case-study).
+
+- **Scope tools and access to each agent's role.** Define the tools, dependencies,
+  and access each agent needs. The Crafting platform combines sandbox access
+  controls, network isolation, and managed credentials to constrain what agents
+  can reach as they coordinate across systems.
+  [How infrastructure-level control works](https://www.crafting.dev/blog/ai-control-plane-infrastructure-vs-governance).
+
+- **Give agents an environment to test their work.** Connect agents to real
+  services and dependencies in production-like environments so they can run
+  tests, inspect failures, and iterate on a fix. Agents and engineers can validate
+  changes in parallel using isolated slices of your application stack.
+  [Closing the loop with Crafting](https://www.crafting.dev/post/announcing-crafting-for-agents).
 
 ## Hitting the limits of Express?
 
