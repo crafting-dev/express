@@ -40,7 +40,7 @@ For more details, check out our [documentation](https://docs.sandboxes.cloud).
 ## System requirements
 
 - **Docker** 20 or later: Docker Desktop on macOS, or Docker Engine on Linux.
-- **Memory**: 12 GB allocated to Docker for Express, the demo cluster, and a
+- **Memory**: 8 GB allocated to Docker for Express, the demo cluster, and a
   sandbox running the tutorial. In Docker Desktop, set this under
   **Settings → Resources**. `cs express start` warns when Docker has less.
 - **Disk**: at least 8 GB free for Docker volumes; 40 GB is recommended.
