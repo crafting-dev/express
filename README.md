@@ -32,7 +32,7 @@ It will guide you to:
 - Create a Docker container to run _Crafting Express Edition_
 - Create a demo Kubernetes cluster running the Boutique shop, connected to
   Express for the Kubernetes interception tutorial (skip it with
-  `--demo-cluster=skip`)
+  `--disable-demo`)
 - Instructions on how to access _Crafting Express Edition_ via Web UI and CLI
 
 For more details, check out our [documentation](https://docs.sandboxes.cloud).
@@ -42,7 +42,7 @@ For more details, check out our [documentation](https://docs.sandboxes.cloud).
 - **Docker** 20 or later: Docker Desktop on macOS, or Docker Engine on Linux.
 - **Memory**: 8 GB allocated to Docker for Express, the demo cluster, and a
   sandbox running the tutorial. In Docker Desktop, set this under
-  **Settings → Resources**. `cs express start` warns when Docker has less.
+  **Settings → Resources**.
 - **Disk**: at least 8 GB free for Docker volumes; 40 GB is recommended.
 - **Network**: internet access. The first start downloads the Express and
   Boutique images and connects to `exp.sandboxes.cloud`.
