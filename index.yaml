@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   express:
   - apiVersion: v2
-    created: "2026-09-26T16:37:48.084174856Z"
+    created: "2026-09-27T16:54:51.023406126Z"
     dependencies:
     - name: apid
       repository: ""
@@ -55,68 +55,9 @@ entries:
     - name: samples
       repository: ""
       version: 0.0.1
-    digest: 829bb696c4b206659936c5e2536b26bd6a471ebe970d6e254e19ae1e98c3735e
+    digest: 57e705a841b04fbd720b9fe6b52269bb00c9d50b3f1263e5946ff64b284f9600
     name: express
     urls:
     - https://crafting-dev.github.io/express/express-2.3.3.tgz
     version: 2.3.3
-  - apiVersion: v2
-    created: "2026-09-26T16:37:48.081115516Z"
-    dependencies:
-    - name: apid
-      repository: ""
-      version: 0.0.1
-    - name: authproxy
-      repository: ""
-      version: 0.0.1
-    - name: base
-      repository: ""
-      version: 0.0.1
-    - name: bridged
-      repository: ""
-      version: 0.0.1
-    - name: crproxy
-      repository: ""
-      version: 0.0.1
-    - name: ctld
-      repository: ""
-      version: 0.0.1
-    - name: hostd
-      repository: ""
-      version: 0.0.1
-    - name: reconciler
-      repository: ""
-      version: 0.0.1
-    - name: workers
-      repository: ""
-      version: 0.0.1
-    - name: redis
-      repository: ""
-      version: 8.6.2
-    - name: dockerregistry
-      repository: ""
-      version: 2.8.1
-    - name: web
-      repository: ""
-      version: 0.0.1
-    - name: k8sd
-      repository: ""
-      version: 0.0.1
-    - name: svclbd
-      repository: ""
-      version: 0.0.1
-    - name: expagent
-      repository: ""
-      version: 0.0.1
-    - name: system-exp
-      repository: ""
-      version: 0.0.1
-    - name: samples
-      repository: ""
-      version: 0.0.1
-    digest: 46a417826b4dc7401878166920bb7e36509a52610e2c240cce519df171f6ff7d
-    name: express
-    urls:
-    - https://crafting-dev.github.io/express/express-2.3.2.tgz
-    version: 2.3.2
-generated: "2026-09-26T16:37:48.076323687Z"
+generated: "2026-09-27T16:54:51.009605616Z"
