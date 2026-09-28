@@ -73,12 +73,12 @@ Enterprise.
 
 Upgrade to the Enterprise edition to manage and run agents at scale.
 
-- **Connect to your k8s cluster** — agents execute against your real infrastructure,
-  not a container
-- **Multi-cloud and multi-region** by default — automated failover, no vendor lock-in
-- **Secure access to internal systems** — credential injection scoped per agent,
-  admin-managed, never exposed
-- **SOC 2 Type II certified** — independently audited for security and availability
+- **Connect to your k8s cluster** - agents execute against your real infrastructure,
+  not a local container
+- **Multi-cloud and multi-region** by default - automated failover, no vendor lock-in
+- **Secure access to internal systems** - credentials scoped and injected per agent,
+  admin-managed, and never exposed
+- **SOC 2 Type II certified** - independently audited for security and availability
 
 We'll get you up and running in two weeks or less.
 
