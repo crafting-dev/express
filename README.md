@@ -74,13 +74,12 @@ Enterprise.
 ## Hitting the limits of Express?
 
 Upgrade to the Enterprise edition to manage and run agents at scale.
-
-- **Connect to your internal k8s cluster**: agents execute against your real infrastructure,
-  not a local dependency
-- **Multi-cloud and multi-region** by default: automated failover, no vendor lock-in
-- **Securely manage access to dependencies**: credential injection scoped per agent,
-  admin-managed, never exposed
-- **SOC 2 Type II certified**: independently audited for security and availability
+- **Connect to your k8s cluster** - agents execute against your real infrastructure,
+  not a local container
+- **Multi-cloud and multi-region** by default - automated failover, no vendor lock-in
+- **Secure access to internal systems** - credentials scoped and injected per agent,
+  admin-managed, and never exposed
+- **SOC 2 Type II certified** - independently audited for security and availability
 
 We'll get you up and running in two weeks or less.
 
