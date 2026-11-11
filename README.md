@@ -17,7 +17,7 @@ and infrastructure.
 Download the Crafting CLI:
 
 ```sh
-curl -sSL https://sandboxes.cloud/sh/install-cli | bash
+curl -sSL https://raw.githubusercontent.com/crafting-dev/release/refs/heads/master/scripts/install-cli.sh | bash
 ```
 
 Alternatively, you can download it [directly here](docs/Download.md).
