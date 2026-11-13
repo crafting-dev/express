@@ -20,7 +20,7 @@ Download the Crafting CLI:
 curl -sSL https://raw.githubusercontent.com/crafting-dev/release/refs/heads/master/scripts/install-cli.sh | bash
 ```
 
-Alternatively, you can download it [directly here](docs/Download.md).
+More details [here](https://github.com/crafting-dev/release#install-cli).
 
 Launch _Crafting Express Edition_ using a single command:
 
@@ -70,6 +70,11 @@ Enterprise.
   coding, testing, and security agents. Sub-agents run in parallel with separate
   conversation contexts, return results to the lead, and receive follow-up work
   as needed. [Build an agent team](https://docs.sandboxes.cloud/guides/developers/build-agent.html#agent-team).
+
+## Guides
+
+- [Work with local Ollama](docs/WorkWithOllama.md)
+- [Accessing local Network](docs/AccessLAN.md)
 
 ## Hitting the limits of Express?
 
